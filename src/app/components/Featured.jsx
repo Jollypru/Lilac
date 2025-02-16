@@ -23,7 +23,7 @@ export default function Featured() {
 
     return (
         <div className="my-20 px-8">
-            <h3 className='text-3xl mb-3'>Featured Products</h3>
+            <h3 className='text-4xl mb-3'>Featured Products</h3>
             <hr className='mb-8' />
             {products.length > 0 ? (
                 <Swiper
@@ -47,11 +47,11 @@ export default function Featured() {
                     {products.slice(0, 8).map((product) => (
                         <SwiperSlide key={product.sku}>
                             <div className="relative group">
-                                <div className='relative'>
+                                <div className='relative h-[300px]'>
                                     <img
                                         src={product.images[0]}
                                         alt={product.name}
-                                        className="transition-all duration-300 group-hover:opacity-0"
+                                        className="transition-all duration-300 group-hover:opacity-0 h-full w-full"
                                     />
                                     <img
                                         src={product.images[1]}
@@ -60,14 +60,14 @@ export default function Featured() {
                                     />
                                 </div>
                                  {/* Action buttons (appear on hover) */}
-                                 <div className="absolute top-3/4 left-1/3 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                        <button className=" p-3 bg-white  rounded-full mb-2">
+                                 <div className="absolute top-64 left-1/3 flex gap-2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <button className=" p-3 bg-white  rounded-full hover:bg-rose-100">
                                         <IoEyeOutline />
                                         </button>
-                                        <button className="p-3 bg-white  rounded-full mb-2">
+                                        <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
                                         <FaRegHeart />
                                         </button>
-                                        <button className="p-3 bg-white  rounded-full">
+                                        <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
                                         <FaArrowRight />
                                         </button>
                                     </div>

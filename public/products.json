@@ -1,299 +1,163 @@
 [
     {
-        "name": "Replenishing Body Lotion",
-        "brand": "AuroraDesign Hub",
-        "rating": 4.00,
-        "reviews": 1,
-        "price": "$29.00",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "name": "CeraVe Hydrating Facial Cleanser",
+        "brand": "CeraVe",
+        "rating": 4.7,
+        "reviews": 4300,
+        "price": "$13.99",
+        "description": "A gentle cleanser with ceramides and hyaluronic acid that cleanses and hydrates the skin.",
         "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
         "images": [
-            "https://i.ibb.co.com/nN7vqmKd/product-13.webp",
-            "https://i.ibb.co.com/vtbv9xV/product-14.webp"
+            "https://i.ibb.co.com/Lh6GCzgb/12153072-1-nocolour.jpg",
+            "https://i.ibb.co.com/mW3tKRz/cerave-hydrating-facial-cleanser-21-1.jpg"
         ],
         "checkout": {
             "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $100",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
             "delivery": "Delivers in: 3-7 Working Days",
             "shippingAndReturn": "Shipping & Return"
         },
-        "sku": "D2409",
-        "categories": [
-            "Body Care",
-            "Girl Skincare"
-        ],
-        "tags": [
-            "Hot",
-            "Trend"
-        ]
+        "sku": "C1001",
+        "categories": ["Cleanser", "Face Wash"],
+        "tags": ["Best Seller", "Gentle"]
     },
     {
-        "name": "Soothing Night Cream",
-        "brand": "GlowSkin",
-        "rating": 4.5,
-        "reviews": 5,
-        "price": "$34.99",
-        "description": "This night cream nourishes the skin and provides deep hydration while you sleep.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://i.ibb.co.com/Z66kyXy6/product-9.webp",
-            "https://i.ibb.co.com/LXC7FwBX/product-10.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $50",
-            "delivery": "Delivers in: 5-10 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "G2110",
-        "categories": [
-            "Night Care",
-            "Skincare"
-        ],
-        "tags": [
-            "New",
-            "Popular"
-        ]
-    },
-    {
-        "name": "Anti-Aging Serum",
-        "brand": "YouthfulGlow",
+        "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+        "brand": "The Ordinary",
         "rating": 4.8,
-        "reviews": 10,
-        "price": "$49.00",
-        "description": "A powerful serum that reduces wrinkles and fine lines, providing youthful-looking skin.",
+        "reviews": 7800,
+        "price": "$5.90",
+        "description": "A high-strength vitamin and mineral blemish formula that helps reduce blemishes and congestion.",
         "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
         "images": [
-            "https://example.com/product-image-5.webp",
-            "https://example.com/product-image-6.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $150",
-            "delivery": "Delivers in: 5-7 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "Y5001",
-        "categories": [
-            "Serum",
-            "Anti-Aging"
-        ],
-        "tags": [
-            "Best Seller",
-            "Anti-Aging"
-        ]
-    },
-    {
-        "name": "Hydrating Facial Mist",
-        "brand": "FreshMist",
-        "rating": 4.2,
-        "reviews": 8,
-        "price": "$18.00",
-        "description": "A refreshing mist that provides instant hydration, leaving your skin feeling refreshed.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://example.com/product-image-7.webp",
-            "https://example.com/product-image-8.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $75",
-            "delivery": "Delivers in: 4-6 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "F1100",
-        "categories": [
-            "Face Mist",
-            "Hydration"
-        ],
-        "tags": [
-            "Fresh",
-            "Hydrating"
-        ]
-    },
-    {
-        "name": "Brightening Vitamin C Serum",
-        "brand": "RadianceCare",
-        "rating": 4.7,
-        "reviews": 12,
-        "price": "$39.99",
-        "description": "This serum brightens dull skin and reduces pigmentation for a more even skin tone.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://example.com/product-image-9.webp",
-            "https://example.com/product-image-10.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $200",
-            "delivery": "Delivers in: 5-8 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "R2205",
-        "categories": [
-            "Vitamin C",
-            "Brightening"
-        ],
-        "tags": [
-            "Brightening",
-            "Glowing"
-        ]
-    },
-    {
-        "name": "Luxury Face Cream",
-        "brand": "LuxeGlow",
-        "rating": 4.9,
-        "reviews": 15,
-        "price": "$59.99",
-        "description": "A rich and luxurious cream that deeply moisturizes and gives your skin a glowing finish.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://example.com/product-image-11.webp",
-            "https://example.com/product-image-12.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $250",
-            "delivery": "Delivers in: 3-6 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "L3403",
-        "categories": [
-            "Luxury Skincare",
-            "Face Cream"
-        ],
-        "tags": [
-            "Luxury",
-            "Premium"
-        ]
-    },
-    {
-        "name": "Gentle Cleansing Gel",
-        "brand": "PureSkin",
-        "rating": 4.3,
-        "reviews": 9,
-        "price": "$22.00",
-        "description": "A mild cleansing gel for all skin types, removes impurities without drying out the skin.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://example.com/product-image-13.webp",
-            "https://example.com/product-image-14.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $100",
-            "delivery": "Delivers in: 5-7 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "P1502",
-        "categories": [
-            "Cleansers",
-            "Gentle Care"
-        ],
-        "tags": [
-            "Gentle",
-            "Clean"
-        ]
-    },
-    {
-        "name": "Exfoliating Face Scrub",
-        "brand": "GlowBright",
-        "rating": 4.6,
-        "reviews": 7,
-        "price": "$25.00",
-        "description": "Exfoliate your skin with this scrub that helps remove dead skin cells and brightens your complexion.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://example.com/product-image-15.webp",
-            "https://example.com/product-image-16.webp"
-        ],
-        "checkout": {
-            "guaranteedCheckout": "Guaranteed Checkout",
-            "shippingInfo": "Free worldwide shipping on all orders over $120",
-            "delivery": "Delivers in: 4-6 Working Days",
-            "shippingAndReturn": "Shipping & Return"
-        },
-        "sku": "G3301",
-        "categories": [
-            "Exfoliants",
-            "Skincare"
-        ],
-        "tags": [
-            "Exfoliating",
-            "Brightening"
-        ]
-    },
-    {
-        "name": "Nourishing Hand Cream",
-        "brand": "CareSoft",
-        "rating": 4.4,
-        "reviews": 11,
-        "price": "$14.99",
-        "description": "A hand cream that deeply nourishes and protects hands from dryness and cracks.",
-        "quantity": 1,
-        "actions": [
-            "Add to cart",
-            "Add to wishlist",
-            "Buy Now"
-        ],
-        "images": [
-            "https://example.com/product-image-17.webp",
-            "https://example.com/product-image-18.webp"
+            "https://i.ibb.co.com/qLYMyFwt/the-ordinary-niacinamide-10-zinc-1-227224.webp",
+            "https://i.ibb.co.com/cXw4Tfwr/ordinary.webp"
         ],
         "checkout": {
             "guaranteedCheckout": "Guaranteed Checkout",
             "shippingInfo": "Free worldwide shipping on all orders over $50",
-            "delivery": "Delivers in: 5-10 Working Days",
+            "delivery": "Delivers in: 3-7 Working Days",
             "shippingAndReturn": "Shipping & Return"
         },
-        "sku": "C4100",
-        "categories": [
-            "Hand Care",
-            "Moisturizers"
+        "sku": "TO1003",
+        "categories": ["Serum", "Acne Treatment"],
+        "tags": ["Best Seller", "Oil Control"]
+    },
+    {
+        "name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+",
+        "brand": "Beauty of Joseon",
+        "rating": 4.8,
+        "reviews": 6200,
+        "price": "$14.00",
+        "description": "A lightweight sunscreen with rice extract and probiotics that soothes and protects the skin.",
+        "quantity": 1,
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "images": [
+            "https://i.ibb.co.com/7x3C545S/0666959-beauty-of-joseon-relief-sun-rice-probiotics-50ml.webp",
+            "https://i.ibb.co.com/KTybfsf/beutyofjoson.webp"
         ],
-        "tags": [
-            "Nourishing",
-            "Moisturizing"
-        ]
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "BOJ1018",
+        "categories": ["Sunscreen", "SPF"],
+        "tags": ["Lightweight", "Probiotics"]
+    },
+    {
+        "name": "COSRX Advanced Snail 96 Mucin Power Essence",
+        "brand": "COSRX",
+        "rating": 4.7,
+        "reviews": 8500,
+        "price": "$19.00",
+        "description": "A hydrating essence with 96% snail mucin to repair and soothe damaged skin.",
+        "quantity": 1,
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "images": [
+            "https://i.ibb.co.com/Jw7HX2pr/l4-Fr-Hl-To4f85jt3-CJUYjtnuyw-Nw-B7w6i3enh-KOUL.jpg",
+            "https://i.ibb.co.com/yBch3KNC/01305fd3ca6a47ea9b3a148511842df7-thumbnail-0000000-1024x.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "CX1019",
+        "categories": ["Essence", "Hydration"],
+        "tags": ["Snail Mucin", "Repairing"]
+    },
+    {
+        "name": "Simple Kind to Skin Moisturizing Facial Wash",
+        "brand": "Simple",
+        "rating": 4.5,
+        "reviews": 2900,
+        "price": "$6.99",
+        "description": "A gentle, soap-free cleanser that removes impurities without stripping the skin.",
+        "quantity": 1,
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "images": [
+            "https://i.ibb.co.com/8n72xTgf/FKxe-Lsnhw-Qi-Qp-GU8-Yr0-Qbum8d1h8-Nl-Fo-PGnq3-Vzy.webp",
+            "https://i.ibb.co.com/chSYNdk6/QVxrf-VVCTQZj-DXvcxht-BSJVFt7pe-Gt-ZUv-Pruvkpf.png"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "S1020",
+        "categories": ["Cleanser", "Face Wash"],
+        "tags": ["Gentle", "Soap-Free"]
+    },
+    {
+        "name": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
+        "brand": "La Roche-Posay",
+        "rating": 4.6,
+        "reviews": 3200,
+        "price": "$16.99",
+        "description": "A daily moisturizer with prebiotic water, ceramides, and niacinamide to restore the skin barrier.",
+        "quantity": 1,
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "images": [
+            "https://i.ibb.co.com/ZRD3V66v/LRP-82999-bmk-900x.webp",
+            "https://i.ibb.co.com/nsGNSRF6/OWu-DZ7-Bdvxm-Dvt-Pfueonmqaom34-OIOWRAw6-Qipy8.jpg"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "LR1002",
+        "categories": ["Moisturizer", "Face Cream"],
+        "tags": ["Dermatologist Recommended", "Sensitive Skin"]
+    },
+    {
+        "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+        "brand": "Paula's Choice",
+        "rating": 4.9,
+        "reviews": 9200,
+        "price": "$29.00",
+        "description": "A leave-on exfoliant that unclogs pores, smooths wrinkles, and brightens skin tone.",
+        "quantity": 1,
+        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "images": [
+            "https://i.ibb.co.com/ns3nhvB1/1650577746186-Q2-KGZVKRak55ega-ILd-S1-I.webp",
+            "https://i.ibb.co.com/Y7rgJ855/PAULAS-CHOICE-Skin-Perfecting-2-BHA-Liquid-Exfoliant-02.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "PC1004",
+        "categories": ["Exfoliant", "Toner"],
+        "tags": ["Best Seller", "Pore Minimizing"]
     }
 ]

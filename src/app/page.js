@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <Banner></Banner>
       <Featured></Featured>
-      <SingleFeature></SingleFeature>
       <Categories></Categories>
+      <SingleFeature></SingleFeature>
     </div>
   );
 }

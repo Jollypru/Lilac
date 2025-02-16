@@ -7,7 +7,11 @@
         "price": "$13.99",
         "description": "A gentle cleanser with ceramides and hyaluronic acid that cleanses and hydrates the skin.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/Lh6GCzgb/12153072-1-nocolour.jpg",
             "https://i.ibb.co.com/mW3tKRz/cerave-hydrating-facial-cleanser-21-1.jpg"
@@ -19,8 +23,14 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "C1001",
-        "categories": ["Cleanser", "Face Wash"],
-        "tags": ["Best Seller", "Gentle"]
+        "categories": [
+            "Cleanser",
+            "Face Wash"
+        ],
+        "tags": [
+            "Best Seller",
+            "Gentle"
+        ]
     },
     {
         "name": "The Ordinary Niacinamide 10% + Zinc 1%",
@@ -30,7 +40,11 @@
         "price": "$5.90",
         "description": "A high-strength vitamin and mineral blemish formula that helps reduce blemishes and congestion.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/qLYMyFwt/the-ordinary-niacinamide-10-zinc-1-227224.webp",
             "https://i.ibb.co.com/cXw4Tfwr/ordinary.webp"
@@ -42,8 +56,14 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "TO1003",
-        "categories": ["Serum", "Acne Treatment"],
-        "tags": ["Best Seller", "Oil Control"]
+        "categories": [
+            "Serum",
+            "Acne Treatment"
+        ],
+        "tags": [
+            "Best Seller",
+            "Oil Control"
+        ]
     },
     {
         "name": "Beauty of Joseon Relief Sun: Rice + Probiotics SPF 50+",
@@ -53,7 +73,11 @@
         "price": "$14.00",
         "description": "A lightweight sunscreen with rice extract and probiotics that soothes and protects the skin.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/7x3C545S/0666959-beauty-of-joseon-relief-sun-rice-probiotics-50ml.webp",
             "https://i.ibb.co.com/KTybfsf/beutyofjoson.webp"
@@ -65,8 +89,14 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "BOJ1018",
-        "categories": ["Sunscreen", "SPF"],
-        "tags": ["Lightweight", "Probiotics"]
+        "categories": [
+            "Sunscreen",
+            "SPF"
+        ],
+        "tags": [
+            "Lightweight",
+            "Probiotics"
+        ]
     },
     {
         "name": "COSRX Advanced Snail 96 Mucin Power Essence",
@@ -76,7 +106,11 @@
         "price": "$19.00",
         "description": "A hydrating essence with 96% snail mucin to repair and soothe damaged skin.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/Jw7HX2pr/l4-Fr-Hl-To4f85jt3-CJUYjtnuyw-Nw-B7w6i3enh-KOUL.jpg",
             "https://i.ibb.co.com/yBch3KNC/01305fd3ca6a47ea9b3a148511842df7-thumbnail-0000000-1024x.webp"
@@ -88,8 +122,14 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "CX1019",
-        "categories": ["Essence", "Hydration"],
-        "tags": ["Snail Mucin", "Repairing"]
+        "categories": [
+            "Essence",
+            "Hydration"
+        ],
+        "tags": [
+            "Snail Mucin",
+            "Repairing"
+        ]
     },
     {
         "name": "Simple Kind to Skin Moisturizing Facial Wash",
@@ -99,7 +139,11 @@
         "price": "$6.99",
         "description": "A gentle, soap-free cleanser that removes impurities without stripping the skin.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/8n72xTgf/FKxe-Lsnhw-Qi-Qp-GU8-Yr0-Qbum8d1h8-Nl-Fo-PGnq3-Vzy.webp",
             "https://i.ibb.co.com/chSYNdk6/QVxrf-VVCTQZj-DXvcxht-BSJVFt7pe-Gt-ZUv-Pruvkpf.png"
@@ -111,8 +155,14 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "S1020",
-        "categories": ["Cleanser", "Face Wash"],
-        "tags": ["Gentle", "Soap-Free"]
+        "categories": [
+            "Cleanser",
+            "Face Wash"
+        ],
+        "tags": [
+            "Gentle",
+            "Soap-Free"
+        ]
     },
     {
         "name": "La Roche-Posay Toleriane Double Repair Face Moisturizer",
@@ -122,7 +172,11 @@
         "price": "$16.99",
         "description": "A daily moisturizer with prebiotic water, ceramides, and niacinamide to restore the skin barrier.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/ZRD3V66v/LRP-82999-bmk-900x.webp",
             "https://i.ibb.co.com/nsGNSRF6/OWu-DZ7-Bdvxm-Dvt-Pfueonmqaom34-OIOWRAw6-Qipy8.jpg"
@@ -134,8 +188,14 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "LR1002",
-        "categories": ["Moisturizer", "Face Cream"],
-        "tags": ["Dermatologist Recommended", "Sensitive Skin"]
+        "categories": [
+            "Moisturizer",
+            "Face Cream"
+        ],
+        "tags": [
+            "Dermatologist Recommended",
+            "Sensitive Skin"
+        ]
     },
     {
         "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
@@ -145,7 +205,11 @@
         "price": "$29.00",
         "description": "A leave-on exfoliant that unclogs pores, smooths wrinkles, and brightens skin tone.",
         "quantity": 1,
-        "actions": ["Add to cart", "Add to wishlist", "Buy Now"],
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
         "images": [
             "https://i.ibb.co.com/ns3nhvB1/1650577746186-Q2-KGZVKRak55ega-ILd-S1-I.webp",
             "https://i.ibb.co.com/Y7rgJ855/PAULAS-CHOICE-Skin-Perfecting-2-BHA-Liquid-Exfoliant-02.webp"
@@ -157,7 +221,178 @@
             "shippingAndReturn": "Shipping & Return"
         },
         "sku": "PC1004",
-        "categories": ["Exfoliant", "Toner"],
-        "tags": ["Best Seller", "Pore Minimizing"]
+        "categories": [
+            "Exfoliant",
+            "Toner"
+        ],
+        "tags": [
+            "Best Seller",
+            "Pore Minimizing"
+        ]
+    },
+    {
+        "name": "CeraVe Moisturizing Cream",
+        "brand": "CeraVe",
+        "rating": 4.8,
+        "reviews": 6700,
+        "price": "$15.99",
+        "description": "A rich, non-greasy moisturizer with ceramides and hyaluronic acid that restores the skin barrier and locks in moisture.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co/5KqyZ1T/product-43.webp",
+            "https://i.ibb.co/0jZQy7X/product-44.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "C1002",
+        "categories": [
+            "Moisturizer",
+            "Body Cream"
+        ],
+        "tags": [
+            "Best Seller",
+            "Dry Skin"
+        ]
+    },
+    {
+        "name": "CeraVe Foaming Facial Cleanser",
+        "brand": "CeraVe",
+        "rating": 4.6,
+        "reviews": 5100,
+        "price": "$12.99",
+        "description": "A foaming cleanser that removes excess oil, dirt, and makeup without disrupting the skin's natural barrier.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co/0jZQy7X/product-45.webp",
+            "https://i.ibb.co/5KqyZ1T/product-46.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "C1003",
+        "categories": [
+            "Cleanser",
+            "Face Wash"
+        ],
+        "tags": [
+            "Oily Skin",
+            "Foaming"
+        ]
+    },
+    {
+        "name": "CeraVe PM Facial Moisturizing Lotion",
+        "brand": "CeraVe",
+        "rating": 4.7,
+        "reviews": 4800,
+        "price": "$14.99",
+        "description": "A lightweight, oil-free night moisturizer with niacinamide and ceramides to hydrate and restore the skin barrier.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co/5KqyZ1T/product-47.webp",
+            "https://i.ibb.co/0jZQy7X/product-48.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "C1004",
+        "categories": [
+            "Moisturizer",
+            "Night Cream"
+        ],
+        "tags": [
+            "Lightweight",
+            "Non-Comedogenic"
+        ]
+    },
+    {
+        "name": "CeraVe Resurfacing Retinol Serum",
+        "brand": "CeraVe",
+        "rating": 4.5,
+        "reviews": 3600,
+        "price": "$19.99",
+        "description": "A retinol serum with ceramides and niacinamide that helps reduce the appearance of post-acne marks and improve skin texture.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co/0jZQy7X/product-49.webp",
+            "https://i.ibb.co/5KqyZ1T/product-50.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "C1005",
+        "categories": [
+            "Serum",
+            "Retinol"
+        ],
+        "tags": [
+            "Acne Marks",
+            "Skin Resurfacing"
+        ]
+    },
+    {
+        "name": "CeraVe Eye Repair Cream",
+        "brand": "CeraVe",
+        "rating": 4.4,
+        "reviews": 2700,
+        "price": "$11.99",
+        "description": "A nourishing eye cream with hyaluronic acid, niacinamide, and ceramides to reduce puffiness and dark circles.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co/5KqyZ1T/product-51.webp",
+            "https://i.ibb.co/0jZQy7X/product-52.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "C1006",
+        "categories": [
+            "Eye Cream",
+            "Anti-Aging"
+        ],
+        "tags": [
+            "Dark Circles",
+            "Puffiness"
+        ]
     }
 ]

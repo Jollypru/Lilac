@@ -1,0 +1,299 @@
+[
+    {
+        "name": "Replenishing Body Lotion",
+        "brand": "AuroraDesign Hub",
+        "rating": 4.00,
+        "reviews": 1,
+        "price": "$29.00",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co.com/nN7vqmKd/product-13.webp",
+            "https://i.ibb.co.com/vtbv9xV/product-14.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $100",
+            "delivery": "Delivers in: 3-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "D2409",
+        "categories": [
+            "Body Care",
+            "Girl Skincare"
+        ],
+        "tags": [
+            "Hot",
+            "Trend"
+        ]
+    },
+    {
+        "name": "Soothing Night Cream",
+        "brand": "GlowSkin",
+        "rating": 4.5,
+        "reviews": 5,
+        "price": "$34.99",
+        "description": "This night cream nourishes the skin and provides deep hydration while you sleep.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://i.ibb.co.com/Z66kyXy6/product-9.webp",
+            "https://i.ibb.co.com/LXC7FwBX/product-10.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 5-10 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "G2110",
+        "categories": [
+            "Night Care",
+            "Skincare"
+        ],
+        "tags": [
+            "New",
+            "Popular"
+        ]
+    },
+    {
+        "name": "Anti-Aging Serum",
+        "brand": "YouthfulGlow",
+        "rating": 4.8,
+        "reviews": 10,
+        "price": "$49.00",
+        "description": "A powerful serum that reduces wrinkles and fine lines, providing youthful-looking skin.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-5.webp",
+            "https://example.com/product-image-6.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $150",
+            "delivery": "Delivers in: 5-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "Y5001",
+        "categories": [
+            "Serum",
+            "Anti-Aging"
+        ],
+        "tags": [
+            "Best Seller",
+            "Anti-Aging"
+        ]
+    },
+    {
+        "name": "Hydrating Facial Mist",
+        "brand": "FreshMist",
+        "rating": 4.2,
+        "reviews": 8,
+        "price": "$18.00",
+        "description": "A refreshing mist that provides instant hydration, leaving your skin feeling refreshed.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-7.webp",
+            "https://example.com/product-image-8.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $75",
+            "delivery": "Delivers in: 4-6 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "F1100",
+        "categories": [
+            "Face Mist",
+            "Hydration"
+        ],
+        "tags": [
+            "Fresh",
+            "Hydrating"
+        ]
+    },
+    {
+        "name": "Brightening Vitamin C Serum",
+        "brand": "RadianceCare",
+        "rating": 4.7,
+        "reviews": 12,
+        "price": "$39.99",
+        "description": "This serum brightens dull skin and reduces pigmentation for a more even skin tone.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-9.webp",
+            "https://example.com/product-image-10.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $200",
+            "delivery": "Delivers in: 5-8 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "R2205",
+        "categories": [
+            "Vitamin C",
+            "Brightening"
+        ],
+        "tags": [
+            "Brightening",
+            "Glowing"
+        ]
+    },
+    {
+        "name": "Luxury Face Cream",
+        "brand": "LuxeGlow",
+        "rating": 4.9,
+        "reviews": 15,
+        "price": "$59.99",
+        "description": "A rich and luxurious cream that deeply moisturizes and gives your skin a glowing finish.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-11.webp",
+            "https://example.com/product-image-12.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $250",
+            "delivery": "Delivers in: 3-6 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "L3403",
+        "categories": [
+            "Luxury Skincare",
+            "Face Cream"
+        ],
+        "tags": [
+            "Luxury",
+            "Premium"
+        ]
+    },
+    {
+        "name": "Gentle Cleansing Gel",
+        "brand": "PureSkin",
+        "rating": 4.3,
+        "reviews": 9,
+        "price": "$22.00",
+        "description": "A mild cleansing gel for all skin types, removes impurities without drying out the skin.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-13.webp",
+            "https://example.com/product-image-14.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $100",
+            "delivery": "Delivers in: 5-7 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "P1502",
+        "categories": [
+            "Cleansers",
+            "Gentle Care"
+        ],
+        "tags": [
+            "Gentle",
+            "Clean"
+        ]
+    },
+    {
+        "name": "Exfoliating Face Scrub",
+        "brand": "GlowBright",
+        "rating": 4.6,
+        "reviews": 7,
+        "price": "$25.00",
+        "description": "Exfoliate your skin with this scrub that helps remove dead skin cells and brightens your complexion.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-15.webp",
+            "https://example.com/product-image-16.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $120",
+            "delivery": "Delivers in: 4-6 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "G3301",
+        "categories": [
+            "Exfoliants",
+            "Skincare"
+        ],
+        "tags": [
+            "Exfoliating",
+            "Brightening"
+        ]
+    },
+    {
+        "name": "Nourishing Hand Cream",
+        "brand": "CareSoft",
+        "rating": 4.4,
+        "reviews": 11,
+        "price": "$14.99",
+        "description": "A hand cream that deeply nourishes and protects hands from dryness and cracks.",
+        "quantity": 1,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Buy Now"
+        ],
+        "images": [
+            "https://example.com/product-image-17.webp",
+            "https://example.com/product-image-18.webp"
+        ],
+        "checkout": {
+            "guaranteedCheckout": "Guaranteed Checkout",
+            "shippingInfo": "Free worldwide shipping on all orders over $50",
+            "delivery": "Delivers in: 5-10 Working Days",
+            "shippingAndReturn": "Shipping & Return"
+        },
+        "sku": "C4100",
+        "categories": [
+            "Hand Care",
+            "Moisturizers"
+        ],
+        "tags": [
+            "Nourishing",
+            "Moisturizing"
+        ]
+    }
+]

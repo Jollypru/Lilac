@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         className={` ${poppins.variable} ${lato.variable} ${geistSans.variable} ${geistMono.variable}  antialiased bg-[#faf6ec]`}
       >
         <Navbar></Navbar>
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-fit">{children}</main>
         <Footer></Footer>
       </body>
     </html>

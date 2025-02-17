@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Login() {
 
-    const handleSubmit = e => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;

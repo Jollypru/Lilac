@@ -2,14 +2,16 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { registerUser } from '../actions/auth/RegisterUser'
 
 export default function Register() {
 
-    const handleSubmit = e => {
+    const handleSubmit = async( e) => {
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
+        registerUser({name, email, password})
     }
     return (
         <div className='grid grid-cols-12 md:pr-10 items-center mb-10'>

@@ -22,7 +22,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className={`flex justify-between items-center p-5 px-8 sticky w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#fbf7ef] shadow-md' : 'bg-transparent'}`}>
+    <div className={`flex justify-between items-center p-5 px-8 sticky w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#fbf7ef] shadow-md' : 'bg-transparent border-0 border-b'}`}>
       <button className={`font-lato text-3xl`}><span className='text-4xl'>L</span>ILAC</button>
       <ul className='flex gap-8'>
         <Link href='/' className={`${pathname === '/' ? 'text-red-500' : ''}`}><li >Home</li></Link>

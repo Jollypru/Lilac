@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { IoEyeOutline } from "react-icons/io5";
 import { FaArrowRight, FaRegHeart } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function Featured() {
     const [products, setProducts] = useState([]);
@@ -67,9 +68,11 @@ export default function Featured() {
                                         <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
                                         <FaRegHeart />
                                         </button>
+                                        <Link href={`/productDetails/${product.sku}`}>
                                         <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
                                         <FaArrowRight />
                                         </button>
+                                        </Link>
                                     </div>
                                 <div className="mt-4">
                                     <h3 className="font-semibold text-xl">{product.name}</h3>

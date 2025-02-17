@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { IoEyeOutline } from "react-icons/io5";
 import { FaArrowRight, FaRegHeart } from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Shop() {
     const [products, setProducts] = useState([]);
@@ -52,9 +53,11 @@ export default function Shop() {
                                             <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
                                                 <FaRegHeart />
                                             </button>
-                                            <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
-                                                <FaArrowRight />
-                                            </button>
+                                            <Link href={`/productDetails/${product.sku}`}>
+                                                <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
+                                                    <FaArrowRight />
+                                                </button>
+                                            </Link>
                                         </div>
                                         <div className="mt-4">
                                             <h3 className="font-semibold text-xl">{product.name}</h3>

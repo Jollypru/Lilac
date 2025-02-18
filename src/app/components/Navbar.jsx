@@ -4,10 +4,12 @@ import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
+import { useCart } from '../context/CartContext';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
+  const {cart} = useCart();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +35,15 @@ export default function Navbar() {
       </ul>
       <div className='flex items-center gap-3 text-xl'>
         <button><Link href='/register'><FaRegUser></FaRegUser></Link></button>
-        <button><HiOutlineShoppingBag></HiOutlineShoppingBag></button>
+        <button className='relative'><Link href='/cart'><HiOutlineShoppingBag></HiOutlineShoppingBag>
+          {
+            cart.length > 0 && (
+              <span className='absolute -top-2 -right-2 bg-[#db7137] text-white text-xs px-1 rounded-full'>
+                {cart.reduce((total,item) => total + item.quantity, 0)}
+              </span>
+            )
+          }
+        </Link></button>
         <button><FaRegHeart /></button>
       </div>
     </div>

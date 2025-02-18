@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Poppins, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { CartProvider } from "./context/CartContext";
 // import NextAuthSessionProvider from "@/Providers/NextAuthSessionProvider";
 
 const geistSans = Geist({
@@ -36,16 +37,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-        <body
-          className={` ${poppins.variable} ${lato.variable} ${geistSans.variable} ${geistMono.variable}  antialiased bg-[#faf6ec]`}
-        >
+      <body
+        className={` ${poppins.variable} ${lato.variable} ${geistSans.variable} ${geistMono.variable}  antialiased bg-[#faf6ec]`}
+      >
+        <CartProvider>
           <Navbar></Navbar>
           <main className="min-h-fit">{children}</main>
           <Footer></Footer>
-        </body>
-
-
+        </CartProvider>
+      </body>
     </html>
   );
 }

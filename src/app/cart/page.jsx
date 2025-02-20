@@ -15,7 +15,6 @@ import Link from 'next/link';
 
 
 export default function CartPage() {
-    const router = useRouter();
     const { cart, removeFromCart } = useCart();
     const subTotal = cart.reduce((account, item) => account + item.price * item.quantity, 0);
 

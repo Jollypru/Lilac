@@ -8,11 +8,13 @@ import { CiClock2 } from "react-icons/ci";
 import ClientSwiper from '@/app/components/ClientSwiper';
 import { useCart } from '@/app/context/CartContext';
 import { useParams } from 'next/navigation';
+import { useWishlist } from '@/app/context/WishlistContext';
 
 export default function ProductDetail() {
     const params = useParams();
     const id = params.id;
     const {addToCart} = useCart();
+    const {addToWishlist} = useWishlist();
     const [product, setProduct] = useState(null);
    
 
@@ -62,7 +64,7 @@ export default function ProductDetail() {
                         <button>+</button>
                     </div>
                     <button onClick={() => addToCart(product)} className='py-2 px-28 bg-[#db7137] text-white hover:bg-transparent hover:border hover:border-[#db7137] hover:text-[#db7137]'>Add to cart</button>
-                    <button className='border border-gray-400 text-xl  px-3 py-2 text-gray-600'><FaRegHeart></FaRegHeart></button>
+                    <button onClick={() => addToWishlist(product)} className='border border-gray-400 text-xl  px-3 py-2 text-gray-600 hover:text-amber-600'><FaRegHeart></FaRegHeart></button>
                 </div>
                 <button className='border text-center w-full py-2 my-4 text-gray-500 hover:bg-[#db7137] hover:text-white'>Buy Now</button>
                 <p className='flex items-center gap-3 text-gray-600 font-light'><PiPackage className='text-black text-xl' /> Free worldwide shipping on all orders over $100</p>

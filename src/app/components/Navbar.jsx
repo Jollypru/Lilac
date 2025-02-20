@@ -1,15 +1,17 @@
 'use client'
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { useCart } from '../context/CartContext';
+import { useWishlist } from '../context/WishlistContext';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const {cart} = useCart();
+  const {wishlist} = useWishlist();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,7 +46,15 @@ export default function Navbar() {
             )
           }
         </Link></button>
-        <button><FaRegHeart /></button>
+        <button className='relative'><Link href="/wishlist"><FaRegHeart />
+        {
+          wishlist.length > 0 && (
+            <span className='absolute -top-2 -right-2 bg-[#db7137] text-white text-xs px-1 rounded-full'>
+              {wishlist.reduce((total, item) => total + item.quantity, 0)}
+            </span>
+          )
+        }
+        </Link></button>
       </div>
     </div>
   )

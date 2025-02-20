@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { CartProvider } from "./context/CartContext";
+import { WishlistProvider } from "./context/WishlistContext";
+import { ToastContainer } from "react-toastify";
 // import NextAuthSessionProvider from "@/Providers/NextAuthSessionProvider";
 
 const geistSans = Geist({
@@ -40,11 +42,14 @@ export default function RootLayout({ children }) {
       <body
         className={` ${poppins.variable} ${lato.variable} ${geistSans.variable} ${geistMono.variable}  antialiased bg-[#faf6ec]`}
       >
-        <CartProvider>
-          <Navbar></Navbar>
-          <main className="min-h-fit">{children}</main>
-          <Footer></Footer>
-        </CartProvider>
+        <WishlistProvider>
+          <CartProvider>
+            <Navbar></Navbar>
+            <ToastContainer></ToastContainer>
+            <main className="min-h-fit">{children}</main>
+            <Footer></Footer>
+          </CartProvider>
+        </WishlistProvider>
       </body>
     </html>
   );

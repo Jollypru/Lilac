@@ -4,9 +4,11 @@ import { IoEyeOutline } from "react-icons/io5";
 import { FaArrowRight, FaRegHeart } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useWishlist } from '../context/WishlistContext';
 
 export default function Shop() {
     const [products, setProducts] = useState([]);
+    const {addToWishlist} = useWishlist();
 
     useEffect(() => {
         const fetchData = async () => {
@@ -50,7 +52,7 @@ export default function Shop() {
                                             <button className=" p-3 bg-white  rounded-full hover:bg-rose-100">
                                                 <IoEyeOutline />
                                             </button>
-                                            <button className="p-3 bg-white  rounded-full hover:bg-rose-100">
+                                            <button onClick={() => addToWishlist(product)} className="p-3 bg-white  rounded-full hover:bg-rose-100">
                                                 <FaRegHeart />
                                             </button>
                                             <Link href={`/productDetails/${product.sku}`}>

@@ -4,7 +4,7 @@
         "brand": "CeraVe",
         "rating": 4.7,
         "reviews": 4300,
-        "price": "$13.99",
+        "price": 13.99,
         "description": "A gentle cleanser with ceramides and hyaluronic acid that cleanses and hydrates the skin.",
         "quantity": 1,
         "actions": [
@@ -37,7 +37,7 @@
         "brand": "The Ordinary",
         "rating": 4.8,
         "reviews": 7800,
-        "price": "$5.90",
+        "price": 5.90,
         "description": "A high-strength vitamin and mineral blemish formula that helps reduce blemishes and congestion.",
         "quantity": 1,
         "actions": [
@@ -70,7 +70,7 @@
         "brand": "Beauty of Joseon",
         "rating": 4.8,
         "reviews": 6200,
-        "price": "$14.00",
+        "price": 14.00,
         "description": "A lightweight sunscreen with rice extract and probiotics that soothes and protects the skin.",
         "quantity": 1,
         "actions": [
@@ -103,7 +103,7 @@
         "brand": "COSRX",
         "rating": 4.7,
         "reviews": 8500,
-        "price": "$19.00",
+        "price": 19.00,
         "description": "A hydrating essence with 96% snail mucin to repair and soothe damaged skin.",
         "quantity": 1,
         "actions": [
@@ -136,7 +136,7 @@
         "brand": "Simple",
         "rating": 4.5,
         "reviews": 2900,
-        "price": "$6.99",
+        "price": 6.99,
         "description": "A gentle, soap-free cleanser that removes impurities without stripping the skin.",
         "quantity": 1,
         "actions": [
@@ -169,7 +169,7 @@
         "brand": "La Roche-Posay",
         "rating": 4.6,
         "reviews": 3200,
-        "price": "$16.99",
+        "price": 16.99,
         "description": "A daily moisturizer with prebiotic water, ceramides, and niacinamide to restore the skin barrier.",
         "quantity": 1,
         "actions": [
@@ -202,7 +202,7 @@
         "brand": "Paula's Choice",
         "rating": 4.9,
         "reviews": 9200,
-        "price": "$29.00",
+        "price": 29.00,
         "description": "A leave-on exfoliant that unclogs pores, smooths wrinkles, and brightens skin tone.",
         "quantity": 1,
         "actions": [
@@ -235,7 +235,7 @@
         "brand": "CeraVe",
         "rating": 4.8,
         "reviews": 6700,
-        "price": "$15.99",
+        "price": 15.99,
         "description": "A rich, non-greasy moisturizer with ceramides and hyaluronic acid that restores the skin barrier and locks in moisture.",
         "quantity": 1,
         "actions": [
@@ -268,7 +268,7 @@
         "brand": "CeraVe",
         "rating": 4.6,
         "reviews": 5100,
-        "price": "$12.99",
+        "price": 12.99,
         "description": "A foaming cleanser that removes excess oil, dirt, and makeup without disrupting the skin's natural barrier.",
         "quantity": 1,
         "actions": [
@@ -301,7 +301,7 @@
         "brand": "CeraVe",
         "rating": 4.7,
         "reviews": 4800,
-        "price": "$14.99",
+        "price": 14.99,
         "description": "A lightweight, oil-free night moisturizer with niacinamide and ceramides to hydrate and restore the skin barrier.",
         "quantity": 1,
         "actions": [
@@ -334,7 +334,7 @@
         "brand": "CeraVe",
         "rating": 4.5,
         "reviews": 3600,
-        "price": "$19.99",
+        "price": 19.99,
         "description": "A retinol serum with ceramides and niacinamide that helps reduce the appearance of post-acne marks and improve skin texture.",
         "quantity": 1,
         "actions": [
@@ -367,7 +367,7 @@
         "brand": "CeraVe",
         "rating": 4.4,
         "reviews": 2700,
-        "price": "$11.99",
+        "price": 11.99,
         "description": "A nourishing eye cream with hyaluronic acid, niacinamide, and ceramides to reduce puffiness and dark circles.",
         "quantity": 1,
         "actions": [

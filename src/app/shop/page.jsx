@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import { IoEyeOutline } from "react-icons/io5";
 import { FaArrowRight, FaRegHeart } from 'react-icons/fa';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useWishlist } from '../context/WishlistContext';
 
@@ -63,7 +62,7 @@ export default function Shop() {
                                         </div>
                                         <div className="mt-4">
                                             <h3 className="font-semibold text-xl">{product.name}</h3>
-                                            <p className="text-sm text-gray-600">{product.price}</p>
+                                            <p className="text-sm text-amber-600">${product.price}</p>
                                         </div>
                                     </div>
                                 ))
